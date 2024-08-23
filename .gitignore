@@ -1,0 +1,36 @@
+# Environment files
+*.env
+*.secret
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+venv/
+env/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Logs and temp files
+*.log
+*.pid
+*.pid.lock
+tmp/
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
