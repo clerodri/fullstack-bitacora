@@ -1,0 +1,9 @@
+/* src/styles/CustomDateRangePicker.css */
+.date-range-picker .rdrDefinedRangesWrapper {
+  display: none;
+}
+
+.date-range-picker .rdrCalendarWrapper {
+  width: 100% !important;
+  border: none; /* Optional: Remove the border if needed */
+}
