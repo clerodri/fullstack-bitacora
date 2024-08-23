@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG',cast=bool)
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '50f0-2800-bf0-8143-19d-289d-8474-528c-f65e.ngrok-free.app','*']
+ALLOWED_HOSTS = ['localhost','*', '50f0-2800-bf0-8143-19d-289d-8474-528c-f65e.ngrok-free.app']
 
 CORS_ALLOW_ALL_ORIGINS = True
 CSRF_TRUSTED_ORIGINS = ['https://50f0-2800-bf0-8143-19d-289d-8474-528c-f65e.ngrok-free.app']

@@ -14,7 +14,7 @@ env/
 
 # Django
 db.sqlite3
-media/
+media/images
 staticfiles/
 
 # Logs and temp files
